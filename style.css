@@ -1,0 +1,646 @@
+body{
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 400vh;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background: rgb(90, 90, 90);
+    display: flex;
+    position: relative;
+}
+.image1{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: -55px;
+    left: 0;
+    clip-path: inset(55px 0 55px 0);
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fintech{
+    font-weight: 400;
+    font-size: 22px;
+    background: rgba(160, 36, 36, 0);
+    width: 90%;             /* Width of the fintech div */
+    height: 70vh;           /* Adjust height based on content */
+    padding: 20px;          /* Optional: Add padding for aesthetics */
+    display: flex;          /* Use flexbox for inner alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items within fintech */
+    justify-content: center;
+    position: relative;
+    top: -920px;
+}
+.prodimages{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    top: 200px;
+}
+
+.fintech h1{
+    position: absolute;
+    font-weight: 500;
+    top: 50px;
+    left: 150px;
+}
+
+.image2_1{
+    width: 645px;
+    height: 500px;
+    background: url('images/Image 2024.10.22 at 11.41 3.JPG') no-repeat center center; /* Set the background image */
+    background-size: cover; /* Scale the background image to cover the entire div */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.image2_2{
+    width: 645px;
+    height: 500px;
+    background: url('images/Image 2024.10.22 at 11.42 3.JPG') no-repeat center center; /* Set the background image */
+    background-size: cover; /* Scale the background image to cover the entire div */
+    border-radius: 20px; /* Rounded corners */
+}
+
+
+button {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    appearance: none;
+    background-color: white;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 1.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #ff8009;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+
+
+   .image2_2 button {
+    position: absolute;
+    left: 700px;
+    bottom: 40px;
+    appearance: none;
+    background-color: white;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 1.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .image2_2 button:disabled {
+    pointer-events: none;
+   }
+   
+   .image2_2 button:hover {
+    color: #fff;
+    background-color: #ff8009;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .image2_2 button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+   .prodimages .image2_1 span{
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 40px;
+    bottom: 120px;
+   }
+
+   .prodimages .image2_2 span{
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    bottom: 120px;
+    margin-left: 40px;
+   }
+
+
+
+/* Navbar-ийн загварууд */
+nav {
+    margin-top: 10px;
+    position: fixed; /* Толгойд нааж байрлуулна */
+    top: 0;
+    width: 70%;
+    background-color: #ffffff; /* Хар арын дэвсгэр */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    z-index: 1000; /* Бусад агуулгын дээр гаргаж харуулна */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style-type: none; /* Жагсаалтын цэгүүдийг арилгана */
+    display: flex; /* Элементүүдийг эгнүүлнэ */
+    justify-content: center; /* Төвд эгнүүлнэ */
+    padding: 0; /* Анхдагч padding-г арилгана */
+    margin: 0; /* Анхдагч margin-г арилгана */
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+nav ul li {
+    margin: 0 20px; /* Навигацийн холбоосуудын хоорондын зай */
+}
+
+nav ul li a {
+    text-decoration: none; /* Доогуур зураасыг арилгана */
+    color: rgb(0, 0, 0); /* Цагаан өнгө */
+    font-size: 18px; /* Фонтын хэмжээ */
+    font-weight: 400; /* Зузаан фонт */
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ffa200; /* Хулганаар заахад өнгө өөрчлөгдөнө */
+}
+
+nav .lendlogo{
+    transform: scale(0.1);
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: -108px;
+    left: -470px;
+}
+
+.informations{
+    font-weight: 400;
+    font-size: 22px;
+    background: rgba(164, 18, 255, 0);
+    width: 90%;             /* Width of the fintech div */
+    height: 70vh;           /* Adjust height based on content */
+    padding: 20px;          /* Optional: Add padding for aesthetics */
+    display: flex;          /* Use flexbox for inner alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items within fintech */
+    justify-content: center;
+    position: absolute;
+    top: 1450px;
+}
+
+.informations h1{
+    position: absolute;
+    font-weight: 500;
+    padding: 0;
+    top: 0;
+    left: 150px;
+}
+.informations .infimages {
+    position: relative; /* Контейнэрт харьцангуй байрлалтай болгоно */
+    width: 100%; /* Хэрэв шаардлагатай бол өргөнийг тодорхойлно */
+    height: auto; /* Өндрийг автоматаар тохируулна */
+    display: flex;
+}
+
+.informations .infimages .Buttonimg {
+    position: absolute; /* Харьцангуй контейнерт байрлуулах */
+    top: -1700px; /* 20px дээрээс доош */
+    left: -2025px; /* 20px зүүнээс зайтай */
+    transform: scale(0.14); /* Зургийн хэмжээг тохируулна */
+    border-radius: 90px; /* Дугуйрсан булантай */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+.informations .infimages .whiteshape{
+    width: 130px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: -150px;
+    left: 620px;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.informations .infimages .whiteshape .medeetailan{
+    color: black;
+    font-size: 15px;
+}
+.textlink{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0;
+    top: 100;
+    left: 850px;
+    color: black;
+}
+a {
+    text-decoration: none; /* Доогуур зураасыг арилгах */
+    color: rgb(0, 0, 0); /* Холбоосны текстний өнгийг цэнхэр болгоно */
+}
+
+.textlink a:hover {
+    color: rgb(255, 128, 0); /* Хулганаар заах үед улаан өнгөтэй болно */
+    text-decoration: underline; /* Хулганаар заах үед доогуур зураас гарна */
+}
+.Continue a:hover{
+    color: rgb(255, 128, 0); /* Хулганаар заах үед улаан өнгөтэй болно */
+    text-decoration: underline; 
+}
+.informations .date{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 200;
+    top: 310px;
+    left: 870px;
+    color: black;
+    display: flex;
+}
+
+.informations li a{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 200;
+    top: 380px;
+    left: 880px;
+    color: black;
+    display: flex;
+}
+.informations li a:hover{
+    color: #ff8009;
+}
+
+.Continue{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    top: 450px;
+    left: 870px;
+    color: black;
+}
+.others{
+    font-weight: 400;
+    font-size: 22px;
+    background: rgba(21, 202, 226, 0);
+    width: 90%;             /* Width of the fintech div */
+    height: 70vh;           /* Adjust height based on content */
+    padding: 20px;          /* Optional: Add padding for aesthetics */
+    display: flex;          /* Use flexbox for inner alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items within fintech */
+    justify-content: center;
+    position: absolute;
+    top: 2140px;
+}
+.content .blocks{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+}
+.s1, .s2, .s3{
+    background: rgb(255,208,132);
+    background: linear-gradient(0deg, rgba(255, 21, 0, 0.738) 0%, rgba(255, 102, 0, 0.839) 71%);
+    border-radius: 20px;
+    width: 410px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.others .blocks a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+}
+.others .blocks .s1 .shape1{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 50px;
+}
+.others .blocks .s1 .shape1 .shape1text{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.others .blocks .s2 .shape2{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 50px;
+}
+.others .blocks .s2 .shape2 .shape2text{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.others .blocks .s3 .shape3{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 50px;
+}
+.others .blocks .s3 .shape3 .shape3text{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape1text:hover{
+    text-decoration: underline;
+}
+.shape2text:hover{
+    text-decoration: underline;
+}
+.shape3text:hover{
+    text-decoration: underline;
+}
+
+.others .blocks .date1, .date2, .date3{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: calc(0.8);
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+}
+
+.others .blocks .button1, .button2, .button3{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+
+.button1:hover{
+    text-decoration: underline;
+}
+.button2:hover{
+    text-decoration: underline;
+}
+.button3:hover{
+    text-decoration: underline;
+}
+
+.bottomshit{
+    background: rgba(255, 0, 0, 0);
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    top: 2500px;
+}
+.bottomshit .images{
+    display: flex;
+    justify-content: center;
+}
+.bottomshit .images .employees{
+    width: 100%;
+}
+
+.bottomshit .images .blushape{
+    display: flex;
+    width: 1000px;
+    height: 349px;
+    background: #1A3B70;
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 400px;
+}
+.bottomshit .images .blushape .title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: -10px;
+}
+
+.bottomshit .images .blushape .stitle{
+    text-align: center;
+    color: rgb(169, 169, 169);
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: -50px;
+}
+.bottomshit .images .blushape .button{
+    background: white;
+    color: #1A1A1A;
+    height: 40px;
+    width: 220px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    font-weight: 200;
+}
+
+.bottomshit .images .orgshape{
+    width: 1330px;
+    height: 379px;
+    background: #ff8009;
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+    top: 950px;
+}
+.bottomshit .images .orgshape .app1{
+    position: absolute;
+    left: 30px;
+    bottom: -60px;
+    transform: scale(0.8);
+}
+.bottomshit .images .orgshape .downloadapp{
+    color: white;
+    position: absolute;
+    left: 530px;
+    font-size: 38px;
+    top: 50px;
+}
+
+.bottomshit .images .orgshape span{
+    color: white;
+    position: absolute;
+    left: 530px;
+    font-size: 25px;
+    font-weight: 300;
+    top: 140px;
+}
+
+.bottomshit .images .orgshape .playstore {
+    transform: scale(0.07);
+    position: absolute;
+    left: -660px;
+    top: -100px;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.bottomshit .images .orgshape .playstore:hover {
+    transform: scale(0.08); /* Slightly larger on hover */
+}
+
+.bottomshit .images .orgshape .appstore {
+    transform: scale(0.07);
+    position: absolute;
+    left: -460px;
+    top: -100px;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.bottomshit .images .orgshape .appstore:hover {
+    transform: scale(0.08); /* Slightly larger on hover */
+}
+
+
+.bottomshit .images .orgshape .appgallery {
+    transform: scale(0.22);
+    position: absolute;
+    left: 620px;
+    top: 160px;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.bottomshit .images .orgshape .appgallery:hover {
+    transform: scale(0.26); /* Slightly larger on hover */
+}
